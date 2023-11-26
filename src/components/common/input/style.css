@@ -1,0 +1,38 @@
+.custom-input {
+  background-color: var(--theme);
+  color: var(--white);
+  border: 2px solid var(--purple-grey);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  font-size: 1rem;
+  /* width: 70vw; */
+  width: 50vw;
+  font-weight: 500;
+  margin: 1rem;
+}
+.custom-input:focus {
+  outline: none;
+  border-color: var(--white);
+}
+.custom-input::placeholder {
+  color: var(--purple-grey);
+  /* text-align: center; */
+}
+.lable-input {
+  color: var(--purple-grey);
+  transition: all 0.4s ease-in-out;
+}
+.active {
+  border-color: var(--white);
+}
+
+.file-Input {
+  display: flex;
+  /* border: 2px solid ; */
+}
+.file-Input .lable-input:hover {
+  background-color: var(--white);
+  font-weight: bolder;
+
+  font-size: larger;
+}
