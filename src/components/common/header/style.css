@@ -2,7 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* margin-bottom: 2rem; */
   padding: 1.5rem;
+  /* height: 80px; */
 }
 
 .links {
@@ -16,7 +18,7 @@
   color: var(--grey);
   text-decoration: none;
   font-weight: 500;
-  transition: all 0.4s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .links a:hover {
